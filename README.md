@@ -5,7 +5,6 @@ timelapse de cette carte pendant une journée de 8h00 à 21h37 :
 ![timelapse](https://github.com/ClementJosse/velib/blob/main/timelapse.gif)
 
 # Récupération du projet
-***Ce projet a besoin de Docker pour fonctionner.***
 ## - via clone Github + docker build
 #### Clone du projet
 ```
@@ -23,7 +22,7 @@ docker pull clementjosse/velib:latest
 
 # Lancer le projet
 ```
-docker run -p 8050:8050 velib
+docker run -p 8050:8050 --name velib velib 
 ```
 Le projet sera ensuite disponible à l'addresse 
 http://localhost:8050/ de votre navigateur.
