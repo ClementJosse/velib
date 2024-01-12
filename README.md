@@ -26,3 +26,6 @@ docker run -p 8050:8050 --name velib velib
 ```
 Le projet sera ensuite disponible à l'addresse 
 http://localhost:8050/ de votre navigateur.
+
+# Fonctionnement du projet 
+![image](https://github.com/ClementJosse/velib/assets/86595295/e916a889-25e4-4d1b-b43b-04c5c54bc382)
